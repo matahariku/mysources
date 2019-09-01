@@ -1,4 +1,5 @@
 # mysources
 My source code Python/Javascript/Sql/C++  <br>
-hello world python
+hello word python
+print "hello word python"
 
