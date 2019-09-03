@@ -1,0 +1,57 @@
+#List declaration
+value_liste= [1,2,3,4,5,6,7,8,9,10]
+
+#show List
+print("Value Liste : \n", value_liste)
+
+#use len
+print("\nAdd Index Value Liste (len) : \n", len(value_liste))
+
+#use count
+print("\nAdd value 5 inside to Liste (count) : \n", value_liste.count(5))
+
+#use append
+print(#\nAdd element inside to list (append) : ")
+value_liste.append(12)
+value_liste.append(10)
+print("Value Liste : \n", value_liste)
+
+#use index
+print("\nAdd Value liste (insert) : \n", value_liste)
+
+#use insert
+value_list.insert(1,12)
+print("\nAdd Value Liste (insert) : \n", value_liste)
+
+#use pop
+value_liste.pop()
+value_liste.pop()
+print("\nValue Liste (pop) : \n", value_liste)
+
+#use remove
+value_liste.remove(2)
+value_liste.remove(1)
+print("\nValue Liste (remove) : \n", value_liste)
+
+#use extend
+value_liste2 = [4,3,8,7]
+value_liste.extend(value_liste2)
+print("\nValue Liste (extend) : \n", value_liste)
+
+#use reserve
+value_liste.reserve()
+print("\nValue Liste (reserve) : \n", value_liste)
+
+#use sort
+value_liste.sort()
+print("\nValue Liste sort) : \n", value_liste)
+
+#use Max
+print("\nValue Biggest (max) : \n", max(value_liste))
+
+#use Min
+print("\nValue Smallest (min) : \n", min(value_liste))
+
+#use Sum
+print("\nTotal Addition from value_liste (sum) : \n", sum(value_liste))
+
