@@ -1,0 +1,25 @@
+def main():
+  print("devine numero entre 1 et 100")
+  numerorandom = 50 #par example
+  
+  trouve = False
+  
+  while not trouve:
+    devine = input("votre devine: ") #input command
+    devine = int(devine) # input il faut en numero ou integer
+  
+    if devine == numerorandom:
+      print("votre devine est vrai!!")
+      trouve = True
+      
+    elif trouve > numeroronadome:
+      print("c trop grand")
+      skor -=3
+    else:
+      print("c trop petit")
+      skor -=4
+    
+  print("votre note = ",skor)
+ 
+if __name__ == "__main__":
+    main()
