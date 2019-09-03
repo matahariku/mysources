@@ -2,10 +2,10 @@
 #this program ask you to put two numbers
 
 bil1 = input('give me one number please: ')
-bil2 = input('gime me second number plerase: ')
+bil2 = input('gime me second number please: ')
 
 #addition two numers
 addition = float(bil1) + float(bil2)
 
 #output addition
-print('addition {0} + {1} is {2}'.format bil1, bil2, addtion))
+print('addition {0} + {1} is {2}'.format bil1, bil2, addition))
