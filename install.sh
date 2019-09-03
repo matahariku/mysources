@@ -7,7 +7,7 @@
 #   curl http://github.com/matahariku/mysources/install.sh
 #   to local user home directory,
 
-usage {
+usage () {
 cat << EOT
 ./install.sh # will install below <HOME>/mysources
 EOT
